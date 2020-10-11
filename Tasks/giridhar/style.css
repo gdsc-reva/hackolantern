@@ -1,0 +1,26 @@
+.heading{
+    color:#4285f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    border-radius: 100%;
+}
+
+div 
+{
+  background: rgba(0, 128, 0, 0.1) /* Green background with 30% opacity */
+}
+
+body{
+    padding: 1rem;
+}
+
+button{
+    background-color: #4285f4;
+    color:white;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
