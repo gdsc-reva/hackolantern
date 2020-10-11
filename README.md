@@ -25,4 +25,4 @@ Repository for Hack O' Lantern - the Hacktoberfest event by DSC REVA University 
 * Once we check the pull request and merge it, you can send pull requests for the subsequent tasks as well. 
 * New pull requests should be sent for each of the tasks. 
 
-**DO NOT CHANGE THE INDEX.HTML AND STYLE.CSS present in the root folder. It is just for your reference. ** 
+**DO NOT CHANGE THE INDEX.HTML AND STYLE.CSS present in the root folder. It is just for your reference.** 
