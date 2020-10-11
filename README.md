@@ -18,9 +18,11 @@ Repository for Hack O' Lantern - the Hacktoberfest event by DSC REVA University 
 * Fork this repository
 * Clone the forked repository on your device
 * In the cloned repository, open the tasks folder and create a new folder inside it with your own Name (Eg. John_Doe)
-* Inside the new folder, copy the index.html and style.css which are provided in the root folder of the repository.
+* Inside the new folder, **copy** the index.html and style.css which are provided in the root folder of the repository.
 * Do the changes in task #1 mentioned above inside the folder you've created. 
 * Commit the changes and push it to your fork on Github. 
 * Open your Github repository and create a pull request for the first task with your name in the title (Eg. John Doe Task #1).
 * Once we check the pull request and merge it, you can send pull requests for the subsequent tasks as well. 
 * New pull requests should be sent for each of the tasks. 
+
+**DO NOT CHANGE THE INDEX.HTML AND STYLE.CSS present in the root folder. It is just for your reference. ** 
