@@ -4,11 +4,11 @@
 }
 
 img{
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 body{
-    padding: 1rem;
+    padding: 5rem;
 }
 
 button{
@@ -16,6 +16,6 @@ button{
     color:white;
     border: none;
     padding: 6px;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
