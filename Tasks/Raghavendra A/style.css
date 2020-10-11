@@ -5,6 +5,14 @@
     text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000,
              2px -1px 0 #000000, 3px 0 0 #000000;
 }
+h1{
+  color:#4285f4;
+  font-family: 'Poppins', sans-serif;
+  color: #CC5500;
+  text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000,
+           2px -1px 0 #000000, 3px 0 0 #000000;
+}
+
 H3{
   color: #CC5500;
   text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000,
