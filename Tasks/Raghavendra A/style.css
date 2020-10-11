@@ -1,6 +1,14 @@
 .heading{
     color:#4285f4;
     font-family: 'Poppins', sans-serif;
+    color: #CC5500;
+    text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000,
+             2px -1px 0 #000000, 3px 0 0 #000000;
+}
+H3{
+  color: #CC5500;
+  text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000,
+           2px -1px 0 #000000, 3px 0 0 #000000;
 }
 
 img{
@@ -11,7 +19,7 @@ img{
 
 body{
     padding: 1rem;
-    background-color: gold;
+    background-color: none;
 }
 
 button{
@@ -20,4 +28,12 @@ button{
     border: none;
     padding: 6px;
     border-radius: 5px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    top: 1px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    border-color: #000000 #AAAAAA #AAAAAA #000000;
 }
