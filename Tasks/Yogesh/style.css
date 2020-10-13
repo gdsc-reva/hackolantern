@@ -1,0 +1,41 @@
+.heading{
+    color:#4285f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    border-radius: 100%;
+    text-align: center;
+}
+
+body{
+    padding: 1rem;
+    color: blanchedalmond;
+     
+     
+}
+
+button{
+    background-color: #4285f4;
+    color:white;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.aboutMe{
+    background-color: black;
+    text-align: center;
+}
+.languages{
+ border: 2px solid white;
+ margin: 0 auto;
+ 
+}
+li a {
+    text-decoration: none;
+    color: crimson;
+}
+li {
+    list-style-type: none;
+}
