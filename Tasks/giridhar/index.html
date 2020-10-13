@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+body {
+  background-image: url('bgphoto.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+}
+</style>
+<body>
+
+    <div>
+        <img src="myphoto1.png" width="auto" height="215px" alt="your-name">
+
+        <h1 style="color:white;">Giridhar M</h1>
+
+        <!-- This is a comment -->
+
+        <h3 class="heading" style="color:white">Biography:</h3>
+
+        <p style="color:white">
+           I am a college student studying in reva universty. I am a very calm and patience personality. most of the time i read news in google.
+            <br>
+           
+        </p>
+
+        <a href="https://ibb.co/PQmVmBS" > View profile</a>
+
+        <h3 class="heading"style="color:white">Projects</h3>
+
+        <ol>
+            <li style="color:white">game development</li>
+            <li style="color:white">3d modelling and animation</li>
+            <li style="color:white">ethical hacking and pentest</li>
+        </ol>
+
+        <h3 class="heading"style="color:white">Experiences</h3>
+
+        <ul>
+            <li style="color:white">fast typing</li>
+            <li style="color:white">game development</li>
+            <li style="color:white">3d modelling and animation</li>
+        </ul>
+
+
+        <button onclick="alert('Thanks for clicking on me')" style="margin-middle: 10000rem;">Please Click Here</button>
+
+<BUTTON TYPE="button" ONCLICK="promptFunction()">Don't Click me!</BUTTON>
+
+<SCRIPT>
+function promptFunction() {
+    var Text = prompt("How Do You feel Today:", "");
+if (Text != null) {
+    if (Text != "") {
+        document.getElementById("TextString").innerHTML = "You wrote " + Text + " in the field!<br><b>Thank you </b></br>";
+    } else {
+        document.getElementById("TextString").innerHTML = "You didn't write anything in the field!";
+    }}
+else {
+        document.getElementById("TextString").innerHTML = "";
+    }
+}
+</SCRIPT>
+
+<DIV ID="TextString"> </DIV>
+
+    </div>
+
+</body>
+
+</html>
