@@ -5,10 +5,16 @@
 
 img{
     border-radius: 100%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body{
     padding: 1rem;
+    background-color: gold;
+    margin: 25px 50px 75px;
+    text-align: left;
 }
 
 button{
