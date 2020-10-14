@@ -26,4 +26,6 @@ button{
     border-radius: 5px;
     box-shadow: 0px 5px whitesmoke;
 }
-
+table, th, td{
+    border: 1px solid rgb(112, 3, 122);
+}
