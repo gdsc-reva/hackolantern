@@ -19,3 +19,15 @@ button{
     border-radius: 5px;
 }
 
+table,
+td,
+th {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px grey;
+  }
+  
