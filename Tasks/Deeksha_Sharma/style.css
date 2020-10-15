@@ -27,5 +27,23 @@ button{
     box-shadow: 0px 5px whitesmoke;
 }
 table, th, td{
-    border: 1px solid rgb(112, 3, 122);
+    border: 2px solid rgb(128, 14, 235);
+    padding: 10px, 40px;
+    margin: 10px, 10px;
+
+}
+table{
+    background-color: whitesmoke;
+    width: 400px;
+}
+th,td{
+    padding: 10px;
+}
+.capt_L{
+    font-size: 30px;
+    color: purple;
+}
+.capt_L:hover{
+    color: rgb(53, 7, 160);
+    opacity: 0.4;
 }
