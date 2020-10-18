@@ -3,43 +3,118 @@
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-</head>
+
 <style>
-body {
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 500px;
+  height: 150px;  
+}
+
+p.double {outline-style: double;}
+
+div {
+  background-color: lightgreen;
+  width: 500px;
+  border: 5px grey;
+  padding: 10px;
+  margin: 10px;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 1000px;
+  height: 60px;  
+}
+
+.center 
+{
+  text-align: center;
+  border: 3px red;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.outset {border-style: outset;}d
+
+
+p.impact 
+{
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+body 
+{
+  font-family: "Sofia";
+  font-size: 22px;
+}
+
+h1 
+{
+  text-shadow: 2px 2px red;
+}
+
+h1 
+{
+  text-align: center;
+}
+
+body 
+{
+  font-family: "Sofia";
+  font-size: 22px;
+}
+
+body 
+{
+
   background-image: url('bgphoto.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-}
 </style>
+</head>
 <body>
 
-    <div>
-        <img src="myphoto1.png" width="auto" height="215px" alt="your-name">
-
+<img src="myphoto.png" width="auto" height="215px" alt="giridhar">
         <h1 style="color:white;">Giridhar M</h1>
 
         <!-- This is a comment -->
 
-        <h3 class="heading" style="color:white">Biography:</h3>
+        <h3 class="center" class="heading" style="color:white">Biography:</h3>
 
-        <p style="color:white">
-           I am a college student studying in reva universty. I am a very calm and patience personality. most of the time i read news in google.
+       
+          <p id="rcorners2"  class="center" class="outset" class="impact" style="color:white"> I  am  a  college student  studying  in  reva  universty . I  am  a very  calm  and  patience  personality . most  of  the  time  i read  news  in  google.
             <br>
            
         </p>
 
         <a href="https://ibb.co/PQmVmBS" > View profile</a>
 
-        <h3 class="heading"style="color:white">Projects</h3>
+<div>
+        <h3  class="center"  class="heading"style="color:black">Projects</h3>
 
         <ol>
-            <li style="color:white">game development</li>
-            <li style="color:white">3d modelling and animation</li>
-            <li style="color:white">ethical hacking and pentest</li>
+            <li   style="color:black">game development</li>
+            <li style="color:black>3d modelling and animation</li>
+<li style="color:black">3d modelling and animation</li>
+            <li style="color:black">ethical hacking and pentest</li>
         </ol>
+</div>
+
+<div id="rcorners1">
 
         <h3 class="heading"style="color:white">Experiences</h3>
 
@@ -48,6 +123,8 @@ body {
             <li style="color:white">game development</li>
             <li style="color:white">3d modelling and animation</li>
         </ul>
+</div>
+
 
 <style>
 table, th, td {
@@ -69,31 +146,7 @@ table, th, td {
 <td style="color:white"> English</td>
 </tr>
 
-
-
-        <button onclick="alert('Thanks for clicking on me')" style="margin-middle: 10000rem;">Please Click Here</button>
-
-<BUTTON TYPE="button" ONCLICK="promptFunction()">Don't Click me!</BUTTON>
-
-<SCRIPT>
-function promptFunction() {
-    var Text = prompt("How Do You feel Today:", "");
-if (Text != null) {
-    if (Text != "") {
-        document.getElementById("TextString").innerHTML = "You wrote " + Text + " in the field!<br><b>Thank you </b></br>";
-    } else {
-        document.getElementById("TextString").innerHTML = "You didn't write anything in the field!";
-    }}
-else {
-        document.getElementById("TextString").innerHTML = "";
-    }
-}
-</SCRIPT>
-
-<DIV ID="TextString"> </DIV>
-
-    </div>
-
+    
 </body>
 
 </html>
