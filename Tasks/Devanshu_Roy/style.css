@@ -1,0 +1,31 @@
+.heading{
+    color:#4285f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    border-radius: 100%;
+}
+
+body{
+    padding: 1rem;
+}
+
+button{
+    background-color: #4285f4;
+    color:white;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+table,
+td,
+th {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
