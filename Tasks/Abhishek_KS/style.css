@@ -3,25 +3,75 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  padding: 1rem;
+  background-color: #f3d0c6;
+}
+
+.container {
+  margin: auto;
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div {
+  background-color: #b8d3fc;
+  padding: 1.5rem;
+  margin-top: 0px;
+  padding-top: 0.1em;
+}
+
+header {
+  background-color: white;
+  margin-bottom: 0px;
+  padding: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.linkedin {
+  text-decoration: none;
+  color: rgb(35, 101, 177);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-shadow: 2px 2px red;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
 .heading {
-  color: #4285f4;
+  color: #2d5eac;
   font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.list {
+  margin-top: 10px;
 }
 
 img {
   border-radius: 50%;
-}
-
-body {
-  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
 button {
   background-color: #4285f4;
-  color: white;
+  color: rgb(245, 241, 241);
   border: none;
   padding: 6px;
   border-radius: 5px;
+}
+
+#download {
+  text-decoration: none;
+  color: white;
 }
 
 table,
@@ -32,6 +82,8 @@ th {
 }
 
 table {
+  margin-top: 15px;
+  margin-bottom: 30px;
   border-collapse: collapse;
   box-shadow: 5px 5px 5px grey;
 }
