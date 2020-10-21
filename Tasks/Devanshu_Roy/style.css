@@ -1,6 +1,31 @@
 .heading{
-    color:#4285f4;
+    color:#794ed4;
     font-family: 'Poppins', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: #9978df;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #9978df;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #9978df;
+}
+
+a:active {
+    text-decoration: none;
+    color: #9978df;
+}
+
+body{
+    color: #e2e2e2;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 img{
@@ -12,20 +37,52 @@ body{
 }
 
 button{
-    background-color: #4285f4;
+    background-color: #424250;
     color:white;
     border: none;
     padding: 6px;
     border-radius: 5px;
 }
 
-table,
-td,
 th {
-  border: 2px solid black;
   padding: 5px;
+  background-color: #794ed4;
 }
 
 table{
     border-collapse: collapse;
+    border: none;
+}
+
+#main{
+    padding: 10px;
+}
+
+.bordered, .n-bordered{
+    border: 1px solid white;
+    border-collapse: collapse;	
+}
+
+.n-bordered{
+    border: none;
+}
+
+.bordered td, .n-bordered td{
+    border: 1px solid white;
+}
+
+.n-bordered tr:first-child td{
+    border-top: none;
+}
+
+.n-bordered tr:last-child td{
+    border-bottom: none;
+}
+
+.n-bordered tr td:first-child{
+    border-left: none;
+}
+
+.n-bordered tr td:last-child{
+    border-right: none;
 }
